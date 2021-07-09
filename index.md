@@ -5,7 +5,7 @@ I am working an IOT Weather Indicator. This project will grab weather from the i
 |:--:|:--:|:--:|:--:|
 | Devan G | Mark Day School | Electrical Engineering | Incoming 7th Grader
 
-![Headstone Image](TBD)
+TBD
   
 # Final Milestone
 TBD 
@@ -15,7 +15,8 @@ TBD
 # Second Milestone
 TBD
 
-[![Third Milestone]TBD{:target="_blank" rel="noopener"}
+[![Second
+Milestone]TBD{:target="_blank" rel="noopener"}
 # First Milestone
   
 
