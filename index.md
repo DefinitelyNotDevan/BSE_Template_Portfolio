@@ -29,6 +29,31 @@ This is the code that displays the temperature!
 # First Milestone
  
 
-My first milestone was coding a script in Arduino that would allow my ESP32 to connect to the wifi, grab API's off the internet, and then give me the temperature. First up was connecting my ESP32. All I did was plug a micro-usb charger into my computer and then I connected the charger to my ESP32. Next I downloaded the ESP32 Drivers and the Arduino application. I then watched a tutorial on how to connect an ESP32 board to the Arduino app. [Connecting ESP32 Website](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/). Then, I connected my ESP32 to wifi using this video. [Connecting ESP32 to Wifi](https://www.youtube.com/watch?v=klIBePOzXpo&ab_channel=Techtutorialsx). After connecting my ESP32 to wifi, I then got my API's from this website. [Weather Api's](https://openweathermap.org/api). Then used a get request to get those API's. [Get Request](https://www.youtube.com/watch?v=s_2cw0k6lgs&t=11s&ab_channel=Techtutorialsx). After I got the API's I had to deserialize it and make it legible following this tutorial. [Deserialize](https://www.youtube.com/watch?v=nfr6wddRRxo&ab_channel=BenoitBlanchon). Now my code gets the weather and it is really accurate.
+My first milestone was coding a script in Arduino that would allow my ESP32 to connect to the wifi, grab API's off the internet, and then give me the temperature. First up was connecting my ESP32. All I did was plug a micro-usb charger into my computer and then I connected the charger to my ESP32. Next I downloaded the ESP32 Drivers and the Arduino application. I then watched a tutorial on how to connect an ESP32 board to the Arduino app. [Connecting ESP32 Website](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/). Then, I connected my ESP32 to wifi using this video. [Connecting ESP32 to Wifi](https://www.youtube.com/watch?v=klIBePOzXpo&ab_channel=Techtutorialsx). After connecting my ESP32 to wifi, I then got my API's from this website. [Weather Api's](https://openweathermap.org/api). Then used a get request to get those API's. [Get Request](https://www.youtube.com/watch?v=s_2cw0k6lgs&t=11s&ab_channel=Techtutorialsx). After I got the API's I had to deserialize it and make it legible following this tutorial. [Deserialize](https://www.youtube.com/watch?v=nfr6wddRRxo&ab_channel=BenoitBlanchon). Now my code gets the weather and it is really accurate.![Screenshot (17)](https://user-images.githubusercontent.com/87206622/126001977-f95c9f75-5e13-4128-adfd-359cc691a88c.png)
+
+```arduino
+      if (err) {
+        Serial.print("ERROR: ");
+        Serial.println(err.c_str());
+        return;
+      }
+      String mainString = doc["main"].as<String>();
+
+      DynamicJsonDocument main (2048);
+
+      DeserializationError err2 = deserializeJson(main, mainString);
+
+      if (err2) {
+        Serial.print("ERROR: ");
+        Serial.println(err2.c_str());
+        return;
+      }
+
+      temp = main["temp"].as<double>();
+      temp = round((temp - 273.15) * 9 / 5 + 32);
+      Serial.println(temp);
+```
+This is the code that deserializes the temperature!
+![Screenshot (17)](https://user-images.githubusercontent.com/87206622/126002001-6d9d72d1-4853-4773-8154-82a4a6edb489.png)
 
 [![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625860918/video_to_markdown/images/youtube--5ZMQx948rd4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=5ZMQx948rd4&ab_channel=BlueStampEng "First Milestone"){:target="_blank" rel="noopener"}
