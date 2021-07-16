@@ -14,7 +14,15 @@ TBD
 
 # Second Milestone
 
-My second milestone was coding my OLED display to display the weather. First I had to solder some pins to my OLED display because otherwise, my display has no way to connect to my ESP32. After I soldered some pins into my OLED display, I then installed the libraries in Arduino IDE that would allow me to actually display things on my OLED. The original library I installed was really buggy and didn't work. Later, I installed a different library that worked perfectly. I then played around with my display with help from [this](https://randomnerdtutorials.com/esp32-ssd1306-oled-display-arduino-ide/).
+My second milestone was coding my OLED display to display the weather. First I had to solder some pins to my OLED display because otherwise, my display has no way to connect to my ESP32. After I soldered some pins into my OLED display, I then installed the libraries in Arduino IDE that would allow me to actually display things on my OLED. The original library I installed was really buggy and didn't work. Later, I installed a different library that worked perfectly. I then played around with my [display](https://randomnerdtutorials.com/esp32-ssd1306-oled-display-arduino-ide/). One note is that the libraries that actually works is called Adafruit SH110X.
+
+``` arduino
+    display.setTextSize(1);
+    display.setTextColor(SH110X_WHITE);
+    display.setCursor(92, 10);
+    display.println(temp);
+    display.display();
+    ```
 
 [![Second Milestone]TBD{:target="_blank" rel="noopener"}
 # First Milestone
