@@ -22,9 +22,9 @@ My second milestone was coding my OLED display to display the weather. First I h
    display.println(temp);
    display.display();
    ```
+This is the code that displays the temperature!
 
-
-[![Second Milestone]TBD{:target="_blank" rel="noopener"}
+[![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626463700/video_to_markdown/images/youtube---DjdSz2TALM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=-DjdSz2TALM&ab_channel=BlueStampEng "Milestone 2"){:target="_blank" rel="noopener"}
 # First Milestone
  
 
