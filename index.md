@@ -94,7 +94,7 @@ void sunny() {
 }
 ~~~
 This is the sun animation!
-<iframe src="https://giphy.com/embed/R4HIujv7tfpPSTIEbb" width="480" height="443" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/R4HIujv7tfpPSTIEbb">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/R4HIujv7tfpPSTIEbb" width="480" height="443" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/R4HIujv7tfpPSTIEbb">
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626814674/video_to_markdown/images/youtube--Hz94wXyT_y8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=Hz94wXyT_y8&ab_channel=BlueStampEng "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
