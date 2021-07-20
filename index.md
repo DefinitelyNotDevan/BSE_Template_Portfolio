@@ -8,9 +8,94 @@ I am working an IOT Weather Indicator. This project will grab weather from the i
 TBD
   
 # Final Milestone
-TBD 
 
-[![Final Milestone]TBD{:target="_blank" rel="noopener"}
+My final milestone was coding animations for my OLED display so my IOT Weather Indicator can have more personality. I also added some text that would say what the weather was like cloudy, clear, rain, etc. I had to deserialize an array to get access to the descriptions of the weather and also in that array are something called icons. Those icons won't actually display on my screen but I used them to display animations. After I had deserialized everything, I then added an if statement saying that if this icon = true, display this animation. Now, my display has animations that make my project more alive.
+~~~arduino
+void sunny() {
+  display.setTextSize(1);
+  display.setTextColor(SH110X_WHITE);
+  display.fillCircle(1, 1, 14, SH110X_WHITE);
+  display.drawLine(18, 2, 40, 2, SH110X_WHITE);
+  display.drawLine(15, 10, 36, 18, SH110X_WHITE);
+  display.drawLine(8, 17, 22, 36, SH110X_WHITE);
+  display.drawLine(2, 22, 2, 44, SH110X_WHITE);
+  display.display();
+  delay(1000);
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SH110X_WHITE);
+  display.setCursor(92, 10);
+  display.println(temp);
+  display.setCursor(92, 42);
+  display.println(description);
+  display.drawLine(86, 0, 86, 64, SH110X_WHITE);
+  display.fillCircle(1, 1, 14, SH110X_WHITE);
+  display.drawLine(29, 2, 51, 2, SH110X_WHITE);
+  display.drawLine(26, 14, 47, 22, SH110X_WHITE);
+  display.drawLine(15, 27, 29, 46, SH110X_WHITE);
+  display.drawLine(2, 33, 2, 55, SH110X_WHITE);
+  display.display();
+  delay(1000);
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SH110X_WHITE);
+  display.setCursor(92, 10);
+  display.println(temp);
+  display.setCursor(92, 42);
+  display.println(description);
+  display.drawLine(86, 0, 86, 64, SH110X_WHITE);
+  display.fillCircle(1, 1, 14, SH110X_WHITE);
+  display.drawLine(40, 2, 62, 2, SH110X_WHITE);
+  display.drawLine(37, 18, 58, 26, SH110X_WHITE);
+  display.drawLine(23, 37, 36, 56, SH110X_WHITE);
+  display.drawLine(2, 44, 2, 66, SH110X_WHITE);
+  display.display();
+  delay(1000);
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SH110X_WHITE);
+  display.setCursor(92, 10);
+  display.println(temp);
+  display.setCursor(92, 42);
+  display.println(description);
+  display.drawLine(86, 0, 86, 64, SH110X_WHITE);
+  display.fillCircle(1, 1, 14, SH110X_WHITE);
+  display.drawLine(51, 2, 73, 2, SH110X_WHITE);
+  display.drawLine(48, 22, 69, 30, SH110X_WHITE);
+  display.drawLine(32, 51, 38, 66, SH110X_WHITE);
+  display.drawLine(2, 55, 2, 77, SH110X_WHITE);
+  display.display();
+  delay(1000);
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SH110X_WHITE);
+  display.setCursor(92, 10);
+  display.println(temp);
+  display.setCursor(92, 42);
+  display.println(description);
+  display.drawLine(86, 0, 86, 64, SH110X_WHITE);
+  display.fillCircle(1, 1, 14, SH110X_WHITE);
+  display.drawLine(62, 2, 85, 2, SH110X_WHITE);
+  display.drawLine(59, 26, 80, 34, SH110X_WHITE);
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SH110X_WHITE);
+  display.setCursor(92, 10);
+  display.println(temp);
+  display.setCursor(92, 42);
+  display.println(description);
+  display.drawLine(86, 0, 86, 64, SH110X_WHITE);
+  display.fillCircle(1, 1, 14, SH110X_WHITE);
+  display.display();
+  delay(1000);
+
+
+
+}
+~~~
+This is the sun animation!
+https://media.giphy.com/media/R4HIujv7tfpPSTIEbb/giphy.gif
+[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626814674/video_to_markdown/images/youtube--Hz94wXyT_y8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=Hz94wXyT_y8&ab_channel=BlueStampEng "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
 
