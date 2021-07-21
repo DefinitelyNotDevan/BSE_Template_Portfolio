@@ -105,6 +105,16 @@ This is the sun animation! What is happening in this code is I am drawing a circ
   This is the cloud code. This is the code that draws the clouds. I decided it looked better with 3 circles instead of 4.
   
   <iframe src="https://giphy.com/embed/HHHlKoafTi140531Uj" width="480" height="344" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/HHHlKoafTi140531Uj"></a></p>
+  ```arduino
+    display.drawLine(2, 2, 2, 8, SH110X_WHITE);
+  display.drawLine(22, 2, 22, 8, SH110X_WHITE);
+  display.drawLine(42, 2, 42, 8, SH110X_WHITE);
+  display.drawLine(62, 2, 62, 8, SH110X_WHITE);
+  ```
+  This is the first line of rain. To get the rain to have the look of falling down, I copy the code, change the orignal code's values to go from 2 to 12 and 8 to 18 etc. I also have to change the copied code to go in between the other lines.
+  
+  <iframe src="https://giphy.com/embed/hSmq3DeR4gX460Ba0O" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hSmq3DeR4gX460Ba0O"></a></p>
+  
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626814674/video_to_markdown/images/youtube--Hz94wXyT_y8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=Hz94wXyT_y8&ab_channel=BlueStampEng "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
