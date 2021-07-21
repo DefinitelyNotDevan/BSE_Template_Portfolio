@@ -93,7 +93,7 @@ void sunny() {
 
 }
 ~~~
-This is the sun animation!
+This is the sun animation! What is happening in this code is I am drawing a circle in the top left then drawing four lines then waiting one second clearing everything, drawing the circle, the temperature, and the description, then it prints the line again but in the middle of where the last one was. I then repeat this until the lines reach the end of the screen. Then I have just the circle print and nothing else so then when it loops it doesn't look rushed.
 
 <html><iframe src="https://giphy.com/embed/R4HIujv7tfpPSTIEbb" width="480" height="443" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/R4HIujv7tfpPSTIEbb"></a></p></html>
 
