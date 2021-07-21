@@ -3,7 +3,7 @@ I am working an IOT Weather Indicator. This project will grab weather from the i
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Devan G | Mark Day School | Electrical Engineering | Incoming 7th Grader
+| Devan G | Mark Day School | Electrical Engineering | Upcoming 7th Grader
 
 TBD
   
