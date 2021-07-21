@@ -97,6 +97,14 @@ This is the sun animation! What is happening in this code is I am drawing a circ
 
 <html><iframe src="https://giphy.com/embed/R4HIujv7tfpPSTIEbb" width="480" height="443" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/R4HIujv7tfpPSTIEbb"></a></p></html>
 
+```arduino
+  display.fillCircle(2, 46, 8, SH110X_WHITE);
+  display.fillCircle(12, 46, 8, SH110X_WHITE);
+  display.fillCircle(7, 42, 8, SH110X_WHITE);
+  ```
+  This is the cloud code. This is the code that draws the clouds. I decided it looked better with 3 circles instead of 4.
+  
+  <iframe src="https://giphy.com/embed/HHHlKoafTi140531Uj" width="480" height="344" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/HHHlKoafTi140531Uj"></a></p>
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626814674/video_to_markdown/images/youtube--Hz94wXyT_y8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=Hz94wXyT_y8&ab_channel=BlueStampEng "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
