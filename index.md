@@ -5,6 +5,7 @@ I am working an IOT Weather Indicator. This project will grab weather from the i
 |:--:|:--:|:--:|:--:|
 | Devan G | Mark Day School | Electrical Engineering | Rising 7th Grader
 
+
 ![weather](https://user-images.githubusercontent.com/87206622/126830467-f5aa25fd-8dd4-4a22-a17a-94df7a428fe9.jpg)
  
 # Reflections
