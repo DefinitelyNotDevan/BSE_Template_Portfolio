@@ -8,9 +8,19 @@ I am working an IOT Weather Indicator. This project will grab weather from the i
 
 ![weather](https://user-images.githubusercontent.com/87206622/126830467-f5aa25fd-8dd4-4a22-a17a-94df7a428fe9.jpg)
  
+# Circut
+
+![Screenshot (24)](https://user-images.githubusercontent.com/87206622/126834242-2b0ee045-4c21-4a8d-8fe4-a820a07d1c67.png)
+ 
+ 
 # Reflections
 
 What I have learned about myself from this program is that I like Electrical Engineering. I like the mix of coding and building that can get this kind product where I can see my hard work be shown off. With Electrical Enginnering, you can build and code something so you can put it on your desk and a wall. You can just look at it and admire your hard work and that is something I like to do. It gives me the feeling that all of my struggles in the project eventually payed off.
+
+# Demo Night
+
+[![Demo Night](https://res.cloudinary.com/marcomontalbano/image/upload/v1627069960/video_to_markdown/images/youtube--QnyOikoRVzE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=QnyOikoRVzE&ab_channel=BlueStampEng "Demo Night"){:target="_blank" rel="noopener"}
+
 
 # Final Milestone
 
