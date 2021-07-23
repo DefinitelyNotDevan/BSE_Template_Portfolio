@@ -5,7 +5,8 @@ I am working an IOT Weather Indicator. This project will grab weather from the i
 |:--:|:--:|:--:|:--:|
 | Devan G | Mark Day School | Electrical Engineering | Upcoming 7th Grader
 
-TBD
+Preview attachment IMG-0430.movIMG-0430.mov
+18 MB
   
 # Final Milestone
 
