@@ -3,11 +3,14 @@ I am working an IOT Weather Indicator. This project will grab weather from the i
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Devan G | Mark Day School | Electrical Engineering | Upcoming 7th Grader
+| Devan G | Mark Day School | Electrical Engineering | Rising 7th Grader
 
-Preview attachment IMG-0430.movIMG-0430.mov
-18 MB
-  
+![weather](https://user-images.githubusercontent.com/87206622/126830467-f5aa25fd-8dd4-4a22-a17a-94df7a428fe9.jpg)
+ 
+# Reflections
+
+What I have learned about myself from this program is that I like Electrical Engineering. I like the mix of coding and building that can get this kind product where I can see my hard work be shown off. With Electrical Enginnering, you can build and code something so you can put it on your desk and a wall. You can just look at it and admire your hard work and that is something I like to do. It gives me the feeling that all of my struggles in the project eventually payed off.
+
 # Final Milestone
 
 My final milestone was coding animations for my OLED display so my IOT Weather Indicator can have more personality. I also added some text that would say what the weather was like cloudy, clear, rain, etc. I had to deserialize an array to get access to the descriptions of the weather and also in that array are something called icons. Those icons won't actually display on my screen but I used them to display animations. After I had deserialized everything, I then added an if statement saying that if this icon = true, display this animation. Now, my display has animations that make my project more alive.
